@@ -14,7 +14,7 @@ describe('Binary Search', () => {
       expect(binarySearchLoop(list, 9)).toBe(6);
     });
     test('Not Found Case', () => {
-      expect(binarySearchLoop(list, 9)).toBeNull();
+      expect(binarySearchLoop(list, 23)).toBeNull();
     });
   });
   describe('Recursive', () => {
@@ -25,7 +25,7 @@ describe('Binary Search', () => {
       expect(binarySearchRecursive(list, 9)).toBe(6);
     });
     test('Not Found Case', () => {
-      expect(binarySearchRecursive(list, 9)).toBeNull();
+      expect(binarySearchRecursive(list, 23)).toBeNull();
     });
   });
 });

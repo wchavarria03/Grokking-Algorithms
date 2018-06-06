@@ -3,7 +3,7 @@ function binarySearchLoop(list, ele) {
   var max = list.length - 1;
 
   while(min <= max) {
-    var mid = (min + max) / 2;
+    var mid = Math.round((min + max) / 2);
     var guess = list[mid];
 
     if(ele === guess) {

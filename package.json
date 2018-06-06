@@ -4,7 +4,8 @@
   "description": "Book exercises, practices and own examples",
   "main": "binary-search.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
